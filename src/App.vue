@@ -169,7 +169,7 @@ const projets = ref([
     id: 'magic_gathering',
     titre: "Suivre la valeur d'une collection de cartes en temps réel",
     descriptionShort: "Utilisation de webscrapping afin de récupérer la valeur de chaque carte et consulter l'évolution au fil du temps.",
-    image: 'photo/test.png',
+    image: 'photo/magic_logo.png',
     modalImage: 'photo/magic_logo.png',
     icon: 'bi-graph-up-arrow',
     technos: ['Python', 'Excel', 'SQL', 'Webscrapping'],
@@ -183,9 +183,9 @@ const projets = ref([
       "Filtrer sur les caractéristiques des cartes (rareté, type, édition…) afin d'affiner la recherche."
     ],    
     galerie: [
-      { src: 'photo/stats_globales.png', alt: 'Statistiques globales au cours du temps' },
-      { src: 'photo/top_evolutions.png', alt: 'Editions avec la meilleure évolution' },
-      { src: 'photo/top_cartes.png', alt: 'Cartes avec la plus grosse valeur' }
+      { src: '/photo/stats_globales.png', alt: 'Statistiques globales au cours du temps' },
+      { src: '/photo/top_evolutions.png', alt: 'Editions avec la meilleure évolution' },
+      { src: '/photo/top_cartes.png', alt: 'Cartes avec la plus grosse valeur' }
     ],
     resultatFinal: "Les tests en conditions réelles ont validé une réduction de 68 % de la consommation d'énergie, augmentant l'autonomie théorique du capteur de 12 à 34 mois.",
     github: 'https://github.com'
