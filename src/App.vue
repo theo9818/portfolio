@@ -64,7 +64,7 @@ const experiences = ref([
       "Déploiement de microservices isolés sous Docker Compose.",
       "Collaboration au sein d'une équipe technique en méthodologie Agile."
     ],*/
-    resultatFinal: "Les tests en conditions réelles ont validé une réduction de 68 % de la consommation d'énergie, augmentant l'autonomie théorique du capteur de 12 à 34 mois.",
+    //resultatFinal: "Les tests en conditions réelles ont validé une réduction de 68 % de la consommation d'énergie, augmentant l'autonomie théorique du capteur de 12 à 34 mois.",
     github: 'https://github.com'
   },
 
@@ -83,7 +83,7 @@ const experiences = ref([
       "Déploiement de microservices isolés sous Docker Compose.",
       "Collaboration au sein d'une équipe technique en méthodologie Agile."
     ],*/
-    resultatFinal: "Les tests en conditions réelles ont validé une réduction de 68 % de la consommation d'énergie, augmentant l'autonomie théorique du capteur de 12 à 34 mois.",
+    //resultatFinal: "Les tests en conditions réelles ont validé une réduction de 68 % de la consommation d'énergie, augmentant l'autonomie théorique du capteur de 12 à 34 mois.",
     github: 'https://github.com'
   },
 
@@ -112,7 +112,7 @@ const experiences = ref([
       "Comparer simplement plusieurs recettes",
     ],
     realisation_3:"Enfin j'ai intégré les agents IA internes dans la solution afin de simplifier l'expérience utilisateur.",
-    resultatFinal: "Les tests en conditions réelles ont validé une réduction de 68 % de la consommation d'énergie, augmentant l'autonomie théorique du capteur de 12 à 34 mois.",
+    //resultatFinal: "Les tests en conditions réelles ont validé une réduction de 68 % de la consommation d'énergie, augmentant l'autonomie théorique du capteur de 12 à 34 mois.",
     github: 'https://github.com'
   },
 
@@ -131,7 +131,7 @@ const experiences = ref([
       "Déploiement de microservices isolés sous Docker Compose.",
       "Collaboration au sein d'une équipe technique en méthodologie Agile."
     ],*/
-    resultatFinal: "Les tests en conditions réelles ont validé une réduction de 68 % de la consommation d'énergie, augmentant l'autonomie théorique du capteur de 12 à 34 mois.",
+    //resultatFinal: "Les tests en conditions réelles ont validé une réduction de 68 % de la consommation d'énergie, augmentant l'autonomie théorique du capteur de 12 à 34 mois.",
     github: 'https://github.com'
   }
 ])
@@ -161,7 +161,7 @@ const projets = ref([
     technos: ['Programmation Orientée Objet ', 'C#'],
     contexte: "Optimisation de la consommation d'énergie sur des capteurs industriels complexes.",
     realisation: "Programmation de tâches prioritaires sous FreeRTOS et optimisation des modes de veille du processeur.",
-    resultatFinal: "Les tests en conditions réelles ont validé une réduction de 68 % de la consommation d'énergie, augmentant l'autonomie théorique du capteur de 12 à 34 mois.",
+    //resultatFinal: "Les tests en conditions réelles ont validé une réduction de 68 % de la consommation d'énergie, augmentant l'autonomie théorique du capteur de 12 à 34 mois.",
     github: 'https://github.com'
   },
 
@@ -187,15 +187,14 @@ const projets = ref([
       { src: '/photo/top_evolutions.png', alt: 'Editions avec la meilleure évolution' },
       { src: '/photo/top_cartes.png', alt: 'Cartes avec la plus grosse valeur' }
     ],
-    resultatFinal: "Les tests en conditions réelles ont validé une réduction de 68 % de la consommation d'énergie, augmentant l'autonomie théorique du capteur de 12 à 34 mois.",
+    //resultatFinal: "Les tests en conditions réelles ont validé une réduction de 68 % de la consommation d'énergie, augmentant l'autonomie théorique du capteur de 12 à 34 mois.",
     github: 'https://github.com'
   },
   {
     id: 'spark-adresses',
     titre: "Gestion de millions d'adresses en France",
     descriptionShort: "Utilisation de Spark afin d'assurer un suivi continu de dizaines de millions d'adresses en France métropolitaine.",
-    //image: 'photo/test.png',
-    modalImage: 'photo/magic_logo.png',
+    modalImage: '/photo/logo_spark_ville.png',
     icon: 'bi-database-fill',
     technos: ['Spark', 'Big Data'],
     contexte: "Ce projet est une solution de traitement et de gestion de données massives dédiée à la Base Adresse Nationale. L'objectif principal de ce programme est d'industrialiser l'ingestion, le suivi des modifications quotidiennes et la consolidation de fichiers contenant des dizaines de millions de lignes d'adresses. Le système est conçu pour maintenir un état historique des changements tout en offrant une vue unifiée et instantanée des données d'adresses à travers le pays.",
@@ -207,19 +206,19 @@ const projets = ref([
       "Un dernier exécute un mécanisme avancé de reconstruction et d'extraction historique qui, à partir des fichiers d'archives, permet de recalculer l'état exact du référentiel d'adresses à n'importe quelle date."
     ],
     galerie: [
-      { src: '/photo/stats_globales.png', alt: 'Statistiques globales au cours du temps' },
-      { src: '/photo/top_evolutions.png', alt: 'Editions avec la meilleure évolution' },
-      { src: '/photo/top_cartes.png', alt: 'Cartes avec la plus grosse valeur' }
+      { src: '/photo/spark_load_adresses.png', alt: "Actualisation et chargement du fichier national d'adresses" },
+      { src: '/photo/spark_creation_colonnes.png', alt: 'Structuration des données' },
+      { src: '/photo/spark_latest_result.png', alt: 'Construction de la vue la plus récente' },
+      { src: '/photo/spark_rapport_stats.png', alt: "Rapport statistique : nombre d'adresses par département" }
     ],
-    resultatFinal: "Les tests en conditions réelles ont validé une réduction de 68 % de la consommation d'énergie, augmentant l'autonomie théorique du capteur de 12 à 34 mois.",
+    //resultatFinal: "Les tests en conditions réelles ont validé une réduction de 68 % de la consommation d'énergie, augmentant l'autonomie théorique du capteur de 12 à 34 mois.",
     github: 'https://github.com'
   },
   {
     id: 'chatbot-esilv',
     titre: "Agent conversationnel pour l'ESILV",
     descriptionShort: "Création d'un agent capable de répondre à toutes sortes de questions à propos de l'Ecole Supérieure d'Ingénieurs Léonard de Vinci.",
-    //image: 'photo/test.png',
-    modalImage: 'photo/chatbot.jpg',
+    modalImage: 'photo/logo_chatbot.jpg',
     icon: 'bi-chat-dots-fill',
     technos: ['Python', 'Docker', 'Agents IA', 'Ollama', 'RAG'],
     contexte: "Dans toutes les grandes écoles d'ingénieurs la charge de travail administratif est très lourde et peut s'avérer complexe à gérer. De nombreux documents, sous divers formats, sont stockés à différents endroits, ce qui peut compliquer l'accès à l'information. Pour remédier à ce problème, l'ESILV dispose actuellement d'un système de FAQ comprenant plusieurs centaines de questions. Lorsque les étudiants saisissent leur question dans la barre de recherche, une liste de questions contenant les mêmes mots-clés s’affiche. Cependant, il arrive parfois que la question posée ne corresponde à aucune des autres, et l’étudiant doit alors contacter directement l’administration ou prendre le temps de rechercher la réponse par lui-même. Dans les deux cas, cela entraîne une perte de temps considérable, qui pourrait être évitée pour tout le monde. L'objectif est de développer une solution capable de comprendre le langage naturel et de puiser ses réponses directement dans l'ensemble de la documentation disponible, ainsi que directement sur le site internet de l'école. La solution a été de développer un RAG (Retrieval-Augmented Generation). Cette méthode permet d’ancrer les réponses du modèle linguistique dans une base de connaissances vérifiable.",
@@ -243,7 +242,7 @@ const projets = ref([
       { src: '/photo/chatbot_historique.png', alt: "Historique des questions posées au chatbot" },
       { src: '/photo/chatbot_juge.png', alt: 'Evaluation de la performance de la solution' }
     ],
-    resultatFinal: "Les tests en conditions réelles ont validé une réduction de 68 % de la consommation d'énergie, augmentant l'autonomie théorique du capteur de 12 à 34 mois.",
+    //resultatFinal: "Les tests en conditions réelles ont validé une réduction de 68 % de la consommation d'énergie, augmentant l'autonomie théorique du capteur de 12 à 34 mois.",
     github: 'https://github.com'
   }
 ])

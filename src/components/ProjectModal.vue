@@ -1,6 +1,6 @@
 <template>
   <div class="modal fade" id="projectModal" tabindex="-1" ref="modalRef" aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
       <div class="modal-content" v-if="project">
         <div class="modal-header">
           <div>
@@ -12,8 +12,8 @@
           <button type="button" class="btn-close" @click="closeModal"></button>
         </div>
         <div class="modal-body">
-          <div class="mb-4" v-if="project.modalImage">
-            <img :src="project.modalImage" class="img-fluid rounded w-100" :alt="project.titre">
+          <div class="text-center mb-4" v-if="project.modalImage">
+            <img :src="project.modalImage" class="img-fluid rounded w-25" :alt="project.titre">
           </div>
           
           <h5 class="fw-bold text-primary">Contexte</h5>
@@ -39,9 +39,9 @@
           </p>
 
           <h5 class="fw-bold text-primary mt-4" v-if="project.galerie">Galerie et Résultats</h5>
-          <div class="row g-3" v-if="project.galerie">
-            <div class="col-sm-6" v-for="img in project.galerie" :key="img.src">
-              <img :src="img.src" class="img-fluid rounded" :alt="img.alt">
+          <div class="row g-4" v-if="project.galerie">
+            <div class="col-12 text-center mb-4" v-for="img in project.galerie" :key="img.src">
+              <img :src="img.src" class="img-fluid rounded w-60" :alt="img.alt">
               <p class="text-muted small text-center mt-2">{{ img.alt }}</p>
             </div>
           </div>
