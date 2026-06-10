@@ -8,7 +8,7 @@
           <a href="#experiences" class="btn btn-primary btn-lg me-2 mb-2">Mes expériences</a>
           <a href="#projets" class="btn btn-lg me-2 mb-2" style="background-color: #e0f2fe; color: #0369a1; border: 1px solid #bae6fd;">Mes projets</a>
           <a href="#contact" class="btn btn-outline-light btn-lg me-2 mb-2">Me contacter</a>
-          <a href="public/docs/CV_Theo_PAROISSIN.pdf" download class="btn btn-light btn-lg mb-2">
+          <a href="/docs/CV_Theo_PAROISSIN.pdf" download class="btn btn-light btn-lg mb-2">
             <i class="bi bi-download me-2"></i>Télécharger mon CV
           </a>
         </div>
