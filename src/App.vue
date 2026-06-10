@@ -207,9 +207,9 @@ const projets = ref([
       "Un dernier exécute un mécanisme avancé de reconstruction et d'extraction historique qui, à partir des fichiers d'archives, permet de recalculer l'état exact du référentiel d'adresses à n'importe quelle date."
     ],
     galerie: [
-      { src: 'photo/stats_globales.png', alt: 'Statistiques globales au cours du temps' },
-      { src: 'photo/top_evolutions.png', alt: 'Editions avec la meilleure évolution' },
-      { src: 'photo/top_cartes.png', alt: 'Cartes avec la plus grosse valeur' }
+      { src: '/photo/stats_globales.png', alt: 'Statistiques globales au cours du temps' },
+      { src: '/photo/top_evolutions.png', alt: 'Editions avec la meilleure évolution' },
+      { src: '/photo/top_cartes.png', alt: 'Cartes avec la plus grosse valeur' }
     ],
     resultatFinal: "Les tests en conditions réelles ont validé une réduction de 68 % de la consommation d'énergie, augmentant l'autonomie théorique du capteur de 12 à 34 mois.",
     github: 'https://github.com'
@@ -230,9 +230,11 @@ const projets = ref([
       "De plus, un script de scraping permet de collecter, nettoyer, dédoublonner et normaliser le contenu textuel provenant des sections stratégiques du site web de l'école."
     ],
     galerie: [
-      { src: 'photo/stats_globales.png', alt: 'Statistiques globales au cours du temps' },
-      { src: 'photo/top_evolutions.png', alt: 'Editions avec la meilleure évolution' },
-      { src: 'photo/top_cartes.png', alt: 'Cartes avec la plus grosse valeur' }
+      { src: '/photo/chatbot_accueil.png', alt: 'Accueil utilisateurs' },
+      { src: '/photo/chatbot_rag.png', alt: 'Alimentation du RAG' },
+      { src: '/photo/chatbot_analyse_rag.png', alt: 'Analyse du RAG' },
+      { src: '/photo/chatbot_historique.png', alt: 'Analyse du RAG' },
+      { src: '/photo/chatbot_juge.png', alt: 'Analyse du RAG' }
     ],
     resultatFinal: "Les tests en conditions réelles ont validé une réduction de 68 % de la consommation d'énergie, augmentant l'autonomie théorique du capteur de 12 à 34 mois.",
     github: 'https://github.com'
