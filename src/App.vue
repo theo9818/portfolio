@@ -65,7 +65,6 @@ const experiences = ref([
       "Collaboration au sein d'une équipe technique en méthodologie Agile."
     ],*/
     //resultatFinal: "Les tests en conditions réelles ont validé une réduction de 68 % de la consommation d'énergie, augmentant l'autonomie théorique du capteur de 12 à 34 mois.",
-    github: 'https://github.com'
   },
 
   {
@@ -84,7 +83,6 @@ const experiences = ref([
       "Collaboration au sein d'une équipe technique en méthodologie Agile."
     ],*/
     //resultatFinal: "Les tests en conditions réelles ont validé une réduction de 68 % de la consommation d'énergie, augmentant l'autonomie théorique du capteur de 12 à 34 mois.",
-    github: 'https://github.com'
   },
 
   {
@@ -113,7 +111,6 @@ const experiences = ref([
     ],
     realisation_3:"Enfin j'ai intégré les agents IA internes dans la solution afin de simplifier l'expérience utilisateur.",
     //resultatFinal: "Les tests en conditions réelles ont validé une réduction de 68 % de la consommation d'énergie, augmentant l'autonomie théorique du capteur de 12 à 34 mois.",
-    github: 'https://github.com'
   },
 
   {
@@ -139,7 +136,7 @@ const experiences = ref([
 
 
 const projets = ref([
-  {
+/*  {
     id: 'ENS-challenge-trains',
     titre: 'Challenge ENS : horaire de trains',
     descriptionShort: "Conception et programmation d'un microcontrôleur pour l'optimisation énergétique de capteurs IoT industriels.",
@@ -151,69 +148,7 @@ const projets = ref([
     resultatFinal: "Les tests en conditions réelles ont validé une réduction de 68 % de la consommation d'énergie, augmentant l'autonomie théorique du capteur de 12 à 34 mois.",
     github: 'https://github.com'
   },
-
-  {
-    id: 'entreprise-C#',
-    titre: "Construction d'une entreprise en POO",
-    descriptionShort: "Utilisation de C# pour construire la structure d'une entreprise",
-    image: 'photo/test.png',
-    icon: 'bi-cpu',
-    technos: ['Programmation Orientée Objet ', 'C#'],
-    contexte: "Optimisation de la consommation d'énergie sur des capteurs industriels complexes.",
-    realisation: "Programmation de tâches prioritaires sous FreeRTOS et optimisation des modes de veille du processeur.",
-    //resultatFinal: "Les tests en conditions réelles ont validé une réduction de 68 % de la consommation d'énergie, augmentant l'autonomie théorique du capteur de 12 à 34 mois.",
-    github: 'https://github.com'
-  },
-
-  {
-    id: 'magic_gathering',
-    titre: "Suivre la valeur d'une collection de cartes en temps réel",
-    descriptionShort: "Utilisation de webscrapping afin de récupérer la valeur de chaque carte et consulter l'évolution au fil du temps.",
-    image: 'photo/magic_logo.png',
-    modalImage: 'photo/magic_logo.png',
-    icon: 'bi-graph-up-arrow',
-    technos: ['Python', 'Excel', 'SQL', 'Webscrapping'],
-    contexte: "Je suis un très grand passionné de cartes Magic the Gathering et j'ai accumulé un très grand nombre pour les collectionner. Je me retrouve actuellement avec plusieurs milliers de cartes. L'objectif est de pouvoir suivre l'évolution de la valeur de ma collection à l'aide d'une application simple et gratuite.",
-    realisation: "Pour ce faire, j'ai commencé par recenser l'entièreté de mes cartes dans des feuilles Excel, qui permettent d'être rapide dans l'écriture des données. Une fois les données prêtes, je les injecte dans un script python. Ce dernier utilise la bibliothèque streamlit pour me renvoyer vers un interface interactif dans lequel je peux consulter l'ensemble des données de mes cartes, en appliquant toutes sortes de filtres. Le grand intérêt est de pouvoir actualiser la valeur de chacune des cartes via du webscrapping. Pour cela j'utilise les informations contenues dans scryfall.com. \nJe peux ainsi :",
-    pointsCles: [
-      "Charger la valeur de chacune des cartes à la date du jour.",
-      "Suivre l'évolution statistique de la valeur totale au fil du temps.",
-      "Consulter les cartes ayant la plus forte valeur.",
-      "Afficher celles qui ont eu la plus forte progression entre la dernière date et la précédente.",
-      "Filtrer sur les caractéristiques des cartes (rareté, type, édition…) afin d'affiner la recherche."
-    ],    
-    galerie: [
-      { src: '/photo/stats_globales.png', alt: 'Statistiques globales au cours du temps' },
-      { src: '/photo/top_evolutions.png', alt: 'Editions avec la meilleure évolution' },
-      { src: '/photo/top_cartes.png', alt: 'Cartes avec la plus grosse valeur' }
-    ],
-    //resultatFinal: "Les tests en conditions réelles ont validé une réduction de 68 % de la consommation d'énergie, augmentant l'autonomie théorique du capteur de 12 à 34 mois.",
-    github: 'https://github.com'
-  },
-  {
-    id: 'spark-adresses',
-    titre: "Gestion de millions d'adresses en France",
-    descriptionShort: "Utilisation de Spark afin d'assurer un suivi continu de dizaines de millions d'adresses en France métropolitaine.",
-    modalImage: '/photo/logo_spark_ville.png',
-    icon: 'bi-database-fill',
-    technos: ['Spark', 'Big Data'],
-    contexte: "Ce projet est une solution de traitement et de gestion de données massives dédiée à la Base Adresse Nationale. L'objectif principal de ce programme est d'industrialiser l'ingestion, le suivi des modifications quotidiennes et la consolidation de fichiers contenant des dizaines de millions de lignes d'adresses. Le système est conçu pour maintenir un état historique des changements tout en offrant une vue unifiée et instantanée des données d'adresses à travers le pays.",
-    realisation: "Le fonctionnement initial du projet repose sur une phase de préparation et de mise à jour des données sources. À l'aide d'un script d'automatisation, le programme commence par purger les anciennes données stockées localement pour télécharger la version la plus récente du fichier compressé officiel, qui pèse environ 1,4 Go. \nUne fois le fichier récupéré, l'utilisateur configure les variables d'environnement indispensables à Spark, notamment la date d'exécution et le chemin d'accès absolu vers le fichier CSV source, avant de lancer le traitement principal via un script ordonnanceur. Au cœur du traitement applicatif, le moteur Apache Spark (exécuté ici en version 4.0.1 avec Java 21) prend en charge le traitement distribué des données. \nLors du tout premier lancement du programme, Spark ingère l'intégralité du fichier source, ce qui représente l'insertion massive de plus de 27 millions de lignes de données géolocalisées. À l'issue de cette exécution, le système structure automatiquement les résultats dans un répertoire de base de données, scindé en deux sous-dossiers stratégiques : bal_diff et bal_latest. Le premier dossier, bal_diff, stocke l'historique des modifications quotidiennes selon un partitionnement par date, tandis que le second, bal_latest, consolide de manière permanente et complète la version propre la plus récente des adresses, optimisée au format de stockage orienté colonne Parquet. \nPour assurer le suivi et la validation de la cohérence des données, le projet intègre plusieurs outils de vérification et d'analyse statistique :",
-    pointsCles: [
-      "Un premier script permet d'inspecter les lignes modifiées, insérées ou supprimées pour une date spécifique, affichant la structure détaillée du schéma des données (identifiants, géolocalisation, nom de voie, code commune, code département et clé de hachage du contenu) ainsi que la nature de l'opération effectuée (INSERT, UPDATE ou DELETE).",
-      "Un deuxième permet de visualiser la table finale consolidée à l'instant t.",
-      "Un autre génère un rapport statistique avec des indicateurs globaux, comme le nombre total d'adresses traitées ou le classement des 20 départements français comportant le plus grand volume d'adresses enregistrées.",
-      "Un dernier exécute un mécanisme avancé de reconstruction et d'extraction historique qui, à partir des fichiers d'archives, permet de recalculer l'état exact du référentiel d'adresses à n'importe quelle date."
-    ],
-    galerie: [
-      { src: '/photo/spark_load_adresses.png', alt: "Actualisation et chargement du fichier national d'adresses" },
-      { src: '/photo/spark_creation_colonnes.png', alt: 'Structuration des données' },
-      { src: '/photo/spark_latest_result.png', alt: 'Construction de la vue la plus récente' },
-      { src: '/photo/spark_rapport_stats.png', alt: "Rapport statistique : nombre d'adresses par département" }
-    ],
-    //resultatFinal: "Les tests en conditions réelles ont validé une réduction de 68 % de la consommation d'énergie, augmentant l'autonomie théorique du capteur de 12 à 34 mois.",
-    github: 'https://github.com'
-  },
+*/
   {
     id: 'chatbot-esilv',
     titre: "Agent conversationnel pour l'ESILV",
@@ -243,7 +178,72 @@ const projets = ref([
       { src: '/photo/chatbot_juge.png', alt: 'Evaluation de la performance de la solution' }
     ],
     //resultatFinal: "Les tests en conditions réelles ont validé une réduction de 68 % de la consommation d'énergie, augmentant l'autonomie théorique du capteur de 12 à 34 mois.",
-    github: 'https://github.com'
+    github: 'https://github.com/theo9818/esilv-smart-assistant.git'
+  },
+
+  {
+    id: 'spark-adresses',
+    titre: "Gestion de millions d'adresses en France",
+    descriptionShort: "Utilisation de Spark afin d'assurer un suivi continu de dizaines de millions d'adresses en France métropolitaine.",
+    modalImage: '/photo/logo_spark_ville.png',
+    icon: 'bi-database-fill',
+    technos: ['Spark', 'Java', 'Shell', 'Powershell','Big Data'],
+    contexte: "Ce projet est une solution de traitement et de gestion de données massives dédiée à la Base Adresse Nationale. L'objectif principal de ce programme est d'industrialiser l'ingestion, le suivi des modifications quotidiennes et la consolidation de fichiers contenant des dizaines de millions de lignes d'adresses. Le système est conçu pour maintenir un état historique des changements tout en offrant une vue unifiée et instantanée des données d'adresses à travers le pays.",
+    realisation: "Le fonctionnement initial du projet repose sur une phase de préparation et de mise à jour des données sources. À l'aide d'un script d'automatisation, le programme commence par purger les anciennes données stockées localement pour télécharger la version la plus récente du fichier compressé officiel, qui pèse environ 1,4 Go. \nUne fois le fichier récupéré, l'utilisateur configure les variables d'environnement indispensables à Spark, notamment la date d'exécution et le chemin d'accès absolu vers le fichier CSV source, avant de lancer le traitement principal via un script ordonnanceur. Au cœur du traitement applicatif, le moteur Apache Spark (exécuté ici en version 4.0.1 avec Java 21) prend en charge le traitement distribué des données. \nLors du tout premier lancement du programme, Spark ingère l'intégralité du fichier source, ce qui représente l'insertion massive de plus de 27 millions de lignes de données géolocalisées. À l'issue de cette exécution, le système structure automatiquement les résultats dans un répertoire de base de données, scindé en deux sous-dossiers stratégiques : bal_diff et bal_latest. Le premier dossier, bal_diff, stocke l'historique des modifications quotidiennes selon un partitionnement par date, tandis que le second, bal_latest, consolide de manière permanente et complète la version propre la plus récente des adresses, optimisée au format de stockage orienté colonne Parquet. \nPour assurer le suivi et la validation de la cohérence des données, le projet intègre plusieurs outils de vérification et d'analyse statistique :",
+    pointsCles: [
+      "Un premier script permet d'inspecter les lignes modifiées, insérées ou supprimées pour une date spécifique, affichant la structure détaillée du schéma des données (identifiants, géolocalisation, nom de voie, code commune, code département et clé de hachage du contenu) ainsi que la nature de l'opération effectuée (INSERT, UPDATE ou DELETE).",
+      "Un deuxième permet de visualiser la table finale consolidée à l'instant t.",
+      "Un autre génère un rapport statistique avec des indicateurs globaux, comme le nombre total d'adresses traitées ou le classement des 20 départements français comportant le plus grand volume d'adresses enregistrées.",
+      "Un dernier exécute un mécanisme avancé de reconstruction et d'extraction historique qui, à partir des fichiers d'archives, permet de recalculer l'état exact du référentiel d'adresses à n'importe quelle date."
+    ],
+    galerie: [
+      { src: '/photo/spark_load_adresses.png', alt: "Actualisation et chargement du fichier national d'adresses" },
+      { src: '/photo/spark_creation_colonnes.png', alt: 'Structuration des données' },
+      { src: '/photo/spark_latest_result.png', alt: 'Construction de la vue la plus récente' },
+      { src: '/photo/spark_rapport_stats.png', alt: "Rapport statistique : nombre d'adresses par département" }
+    ],
+    //resultatFinal: "Les tests en conditions réelles ont validé une réduction de 68 % de la consommation d'énergie, augmentant l'autonomie théorique du capteur de 12 à 34 mois.",
+    github: 'https://github.com/theo9818/Spark_adresses.git'
+  },
+
+  {
+    id: 'entreprise-C#',
+    titre: "Construction d'une entreprise en POO",
+    descriptionShort: "Utilisation de C# pour construire la structure d'une entreprise",
+    image: 'photo/test.png',
+    icon: 'bi-cpu',
+    technos: ['Programmation Orientée Objet ', 'C#'],
+    contexte: "Optimisation de la consommation d'énergie sur des capteurs industriels complexes.",
+    realisation: "Programmation de tâches prioritaires sous FreeRTOS et optimisation des modes de veille du processeur.",
+    //resultatFinal: "Les tests en conditions réelles ont validé une réduction de 68 % de la consommation d'énergie, augmentant l'autonomie théorique du capteur de 12 à 34 mois.",
+    github: 'https://github.com/theo9818/structure_entreprise_poo.git'
+  },
+
+  {
+    id: 'magic_gathering',
+    titre: "Suivre la valeur d'une collection de cartes en temps réel",
+    descriptionShort: "Utilisation de webscrapping afin de récupérer la valeur de chaque carte et consulter l'évolution au fil du temps.",
+    image: 'photo/magic_logo.png',
+    modalImage: 'photo/magic_logo.png',
+    icon: 'bi-graph-up-arrow',
+    technos: ['Python', 'Excel', 'SQL', 'Webscrapping'],
+    contexte: "Je suis un très grand passionné de cartes Magic the Gathering et j'ai accumulé un très grand nombre pour les collectionner. Je me retrouve actuellement avec plusieurs milliers de cartes. L'objectif est de pouvoir suivre l'évolution de la valeur de ma collection à l'aide d'une application simple et gratuite.",
+    realisation: "Pour ce faire, j'ai commencé par recenser l'entièreté de mes cartes dans des feuilles Excel, qui permettent d'être rapide dans l'écriture des données. Une fois les données prêtes, je les injecte dans un script python. Ce dernier utilise la bibliothèque streamlit pour me renvoyer vers un interface interactif dans lequel je peux consulter l'ensemble des données de mes cartes, en appliquant toutes sortes de filtres. Le grand intérêt est de pouvoir actualiser la valeur de chacune des cartes via du webscrapping. Pour cela j'utilise les informations contenues dans scryfall.com. \nJe peux ainsi :",
+    pointsCles: [
+      "Charger la valeur de chacune des cartes à la date du jour.",
+      "Suivre l'évolution statistique de la valeur totale au fil du temps.",
+      "Consulter les cartes ayant la plus forte valeur.",
+      "Afficher celles qui ont eu la plus forte progression entre la dernière date et la précédente.",
+      "Filtrer sur les caractéristiques des cartes (rareté, type, édition…) afin d'affiner la recherche."
+    ],    
+    galerie: [
+      { src: '/photo/stats_globales.png', alt: 'Statistiques globales au cours du temps' },
+      { src: '/photo/top_evolutions.png', alt: 'Editions avec la meilleure évolution' },
+      { src: '/photo/top_cartes.png', alt: 'Cartes avec la plus grosse valeur' }
+    ],
+    //resultatFinal: "Les tests en conditions réelles ont validé une réduction de 68 % de la consommation d'énergie, augmentant l'autonomie théorique du capteur de 12 à 34 mois.",
+    github: 'https://github.com/theo9818/magic_GA_cards.git'
   }
+
 ])
 </script>

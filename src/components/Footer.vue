@@ -7,7 +7,7 @@
           <i class="bi bi-linkedin"></i>
         </a>
         <a href="#" class="text-white me-3 fs-4"><i class="bi bi-github"></i></a>
-        <a href="mailto:gundalgundal45@gmail.com" class="text-white fs-4">
+        <a href="mailto:theo.paroissin@gmail.com" class="text-white fs-4">
           <i class="bi bi-envelope"></i>
         </a>
       </div>
